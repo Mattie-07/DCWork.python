@@ -29,7 +29,7 @@ for string in nameList: # for 'dummy string' in listed saying, iterated through 
             
 
 
-    leetspeak.append(newStr) #adding changed to an empty list
+    leetspeak.append(newStr) #adding changes to an empty list
 
 leetspeak1 = "".join([str(item)for item in leetspeak]) # Seen on Google how str(item) was part of the code but even without it the code works the same.
 print(leetspeak1)

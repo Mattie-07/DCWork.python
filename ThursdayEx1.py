@@ -6,8 +6,6 @@ listB = [3 ,4 , 9]
 newList =[0,0,0]
 x = 0
 
-
-
 while(x < 3):
     newList[x] = listA[x] * listB[x]
     x += 1

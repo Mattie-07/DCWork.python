@@ -11,4 +11,4 @@ emptyList = []
 for newInstance in wordsInaList:
     wordsInaList1 = newInstance.replace("ee","7")
     print(wordsInaList1)
-
+testWords.index

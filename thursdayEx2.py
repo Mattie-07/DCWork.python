@@ -19,9 +19,9 @@ listTwo =[ [ 9, 2] , [7, 20]]
 
 # for i in range(len(listOne) )
 #     for x in range(len(listTwo) )
-# print(listOne[0][0])        
-while x <= len(listOne[x]):
-    print(x)
+#       print(listOne[i][x])   
+#    
+#     print(x)
 
 
 # while(x < 4):
@@ -31,4 +31,4 @@ while x <= len(listOne[x]):
 #     y = 0    
 #     x += 1
     
-# print(listThree)cl
+# print(listThree)
