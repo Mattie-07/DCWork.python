@@ -40,21 +40,28 @@ ramit = {
 
 email = ramit["email"]
 emailName = email
-print(f"Ramti's email is {emailName}")
+print(f"Ramti's email is {email}")
 
 interest = ramit["interests"][0]
-firstInterest = interest
 print(f"Ramit's first interest is {interest}")
 
 
-friend = ramit["friends"]
-jazEmail = friend[0]
-jaz = jazEmail["email"]
-print(jaz)
+# friend = ramit["friends"]
+# jazEmail = friend[0]
+# jaz = jazEmail["email"]
+# print(jaz)
 
-jan =  friend[1]
-moviesJan = jan["interests"][0]
-print(moviesJan)
+
+friend = ramit["friends"][0]["email"]
+print(f"Jasmine's email is {friend}")
+
+
+janInterest = ramit["friends"][1]["interests"][0]
+print(f"Jasmine's first interest is {janInterest}")
+
+# jan =  friend[1]
+# moviesJan = jan["interests"][0]
+# print(moviesJan)
 
 
 # Write a python expression that gets the email address of Ramit.
